@@ -1,7 +1,12 @@
-/*  */
+
+/* body * {
+    outline: 1px solid red;
+} */
 #wrapper {
-    min-width: 970px;
+    width: 1100px;
+    height: 800px;
     background-color: rgb(25, 53, 96);
+    margin: 0px auto;
     padding: 10px;
 }
 #header {
@@ -28,7 +33,7 @@
 }
 #main {
     min-height: 450px;
-    width: 900px;
+    width: 818px;
     background-color: black;
     color: white;
     padding: 5px 5px 5px 20px;
