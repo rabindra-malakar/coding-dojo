@@ -15,7 +15,7 @@
     margin: 5px auto;
     padding: 2em;
 }
-/* top about me section with image */
+/* about me section */
 #article {
     display: flex;
     width: 100%;
@@ -51,7 +51,7 @@
 #continueReading {
     color: black;
 }
-/* main content section the top part */
+/* main content section -> top part */
 #main {
     /* width: 30%; */
     display: flex;
@@ -107,6 +107,7 @@
     padding: 5px;
     margin-bottom: 15px;
 }
+/* footer section of the page */
 footer {
     background-color: whitesmoke;
     text-align: center;

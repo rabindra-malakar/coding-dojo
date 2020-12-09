@@ -1,0 +1,38 @@
+body *{
+    margin: 0 auto;
+}
+.container {
+    background-color: rgb(223, 223, 169);
+    /* width: 75%; */
+    width: 980px;
+    /* height: auto; */
+    padding: 10px;
+}
+.header {
+    display: inline;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: baseline;  */
+    margin-left: 25%;
+}
+.header img {
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.header h1 {
+    display: inline;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+/* this is a main section */
+.main {
+    /* display: flex; */
+}
+.main img {
+    width: 18%;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin: calc(10%/10)
+}
