@@ -13,7 +13,7 @@ body *{
     /* display: flex; */
     /* flex-direction: row; */
     /* align-items: baseline;  */
-    margin-left: 25%;
+    margin: 21%;
 }
 .header img {
     display: inline;
@@ -24,7 +24,7 @@ body *{
     display: inline;
     font-size: 40px;
     font-weight: 900;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 /* this is a main section */
 .main {
