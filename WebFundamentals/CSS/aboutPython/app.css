@@ -83,6 +83,8 @@ body *{
 /* to align the text to right side of the header*/
 #header p {
     text-align: end;
+    margin-right: 35px;
+    margin-bottom: 5px;
 }
 #header form {
     padding: 15px 30px;
