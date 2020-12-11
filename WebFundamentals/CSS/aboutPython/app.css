@@ -55,7 +55,7 @@ body *{
 }
 .container {
     width: 90%;
-    background-color: #235176;
+    background-image: linear-gradient(#245076, #266398 );
     padding: 20px 0;
 
 }
