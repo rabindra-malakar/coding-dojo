@@ -63,13 +63,22 @@ body *{
 #header {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     font-size: 12px;
-    /* text-align: end; */
+
+}
+#header div {
+    margin-right: 10px;
 }
 #header img {
-    width: 60%;
-    text-align: right; 
+    width: 40%;
+    text-align: right;
+    margin-left: 10px; 
+}
+/* to align the text to right side of the header*/
+#header p {
+    text-align: end;
+    margin-right: 35px;
+    margin-bottom: 5px;
 }
 #header span {
     color: white;
@@ -79,12 +88,6 @@ body *{
 }
 #header a {
     color: #caae00;
-}
-/* to align the text to right side of the header*/
-#header p {
-    text-align: end;
-    margin-right: 35px;
-    margin-bottom: 5px;
 }
 #header form {
     padding: 15px 30px;
@@ -101,11 +104,11 @@ body *{
     background-color: #235176;
     padding: 6px 10px;
     color: white;
-    box-shadow: 1px 1px 2px white;
-    /* border-top: 2px solid #c0c0c0; */
-    /* border-left: 2px solid #c0c0c0; */
-    /* border-right: 2px solid #706a6a; */
-    /* border-bottom: 2px solid #706a6a; */
+    /* box-shadow: 1px 1px 2px white; */
+    border-top: 2px solid #c0c0c0;
+    border-left: 2px solid #c0c0c0;
+    border-right: 2px solid #706a6a;
+    border-bottom: 2px solid #706a6a;
     border-radius: 5px;
 }
 /* navbar section under the header */
@@ -117,8 +120,6 @@ body *{
     background-color: #497fad;
     padding: 15px;
     margin: 5px 20px 5px 20px;
-    /* border-right: 4px solid #444444; */
-    /* border-bottom: 5px solid #444444; */
     box-shadow: 4px 4px 4px #444;
     border-radius: 10px;
 }
@@ -126,26 +127,18 @@ body *{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    /* margin: 0 25px 0 25px; */
 }
 /* main content  */
 .main {
     display: flex;
-    /* margin: 15px 20px 15px 50px; */
     justify-content: center;
     text-align: center;
-    /* width: 90%; */
-    /* padding: 10px; */
-    /* margin-bottom: 10px; */
-    /* border: 1px solid red; */
 }
 .main .first {
     width: 80%;
-    /* border: 1px solid white; */
     padding: 10px 20px;
     line-height: 2em;
     font-size: 15px;
-    /* border: 1px solid yellow; */
     margin-left: 20px;
 }
 .first ul li a{
@@ -154,8 +147,8 @@ body *{
 .first span {
     color: #caae00;
     padding: 1px;
-    margin-right: 2px;
-    font-size: 10px;
+    margin-right: 4px;
+    font-size: 8px;
     font-weight: bold;
 }
 .main .second {
@@ -208,13 +201,12 @@ body *{
 }
 .bottom ul {
     margin-top: 10px;
-    margin-left: 60px;
+    margin-left: 40px;
     line-height: 20px;
 }
-.bottomFirst ul li {
-    /* padding: 10px; */
+.bottom ul li {
     color: #497fad;
-    list-style: initial;
+    list-style: square;
 }
 .bottomSecond {
     padding: 10px 20px;
@@ -225,10 +217,6 @@ body *{
 }
 .bottomSecond span {
     color: #497fad;
-}
-.bottomSecond ul li {
-    color: #497fad;
-    list-style: initial;
 }
 
 /* footer section */
