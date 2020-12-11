@@ -69,7 +69,7 @@ body *{
 }
 #header img {
     width: 60%;
-    text-align: right;
+    text-align: right; 
 }
 #header span {
     color: white;
@@ -101,10 +101,11 @@ body *{
     background-color: #235176;
     padding: 6px 10px;
     color: white;
-    border-top: 2px solid #c0c0c0;
-    border-left: 2px solid #c0c0c0;
-    border-right: 2px solid #706a6a;
-    border-bottom: 2px solid #706a6a;
+    box-shadow: 1px 1px 2px white;
+    /* border-top: 2px solid #c0c0c0; */
+    /* border-left: 2px solid #c0c0c0; */
+    /* border-right: 2px solid #706a6a; */
+    /* border-bottom: 2px solid #706a6a; */
     border-radius: 5px;
 }
 /* navbar section under the header */
@@ -116,8 +117,9 @@ body *{
     background-color: #497fad;
     padding: 15px;
     margin: 5px 20px 5px 20px;
-    border-right: 4px solid #444444;
-    border-bottom: 5px solid #444444;
+    /* border-right: 4px solid #444444; */
+    /* border-bottom: 5px solid #444444; */
+    box-shadow: 4px 4px 4px #444;
     border-radius: 10px;
 }
 .navbar .navbarText {
@@ -149,9 +151,12 @@ body *{
 .first ul li a{
     color: white;
 }
-.first ul li span {
+.first span {
     color: #caae00;
     padding: 1px;
+    margin-right: 2px;
+    font-size: 10px;
+    font-weight: bold;
 }
 .main .second {
     /* width: 100%; */
