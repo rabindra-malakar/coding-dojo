@@ -32,7 +32,7 @@
 #main {
     display: flex;
     margin-top: 5px;
-    background-image: linear-gradient( to bottom,#f6f4f4, #fff);
+    background-image: linear-gradient( to bottom,#e7e6e6ad, #fff);
 }
 #main #left-side {
     width: 140px;
@@ -141,7 +141,7 @@
 #main #right-side #subHeader #contact span {
     font-size: 16px;
     font-weight: bold;
-    color: #04c7f8;
+    color: #18c4ca;
     letter-spacing: 1px;
 }
 #mainContent {
