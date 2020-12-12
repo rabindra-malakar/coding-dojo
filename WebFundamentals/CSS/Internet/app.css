@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 970px;
+    margin: 0 auto;
+}
+#header {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+#header img {
+    width: 60px;
+}
+#header h1 {
+    padding-left: 5px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#header span {
+    color: #22649e;
+}
+#banner h2 {
+    padding-top: 0px;
+    background-image: linear-gradient(#2d6ca1,#6191b8, #2d6ca1);
+    padding: 5px;
+    color: white;
+    font-weight: lighter;
+}
+#main {
+    display: flex;
+    margin-top: 5px;
+    background-image: linear-gradient( to bottom,#f6f4f4, #fff);
+}
+#main #left-side {
+    width: 140px;
+    padding: 10px;
+    margin-right: 20px;
+}
+#main #left-side p {
+    font-weight: bold;
+}
+#main #left-side p:nth-of-type(1){
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+#main #left-side p:nth-of-type(1) span{
+    /* color:#3fa0ee; */
+    color: red;
+}
+#main #left-side p:nth-of-type(2) {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+#main #left-side p span {
+    color:#3fa0ee;
+}
+#main #left-side img {
+    width: 60px;
+}
+#main button {
+    width: 140px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1px;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px  rgb(221, 219, 219);
+}
+#main #watchVideo {
+    background-image: linear-gradient(#2d6ca1,#6191b8, #2d6ca1);
+}
+#main #moreResources {
+    background-image: linear-gradient(#ecb46a,#ef7a00);
+}
+#main hr {
+    margin: 20px 0px;
+}
+#main #left-side #learnMore {
+    /* border-top: 1px solid silver; */
+    margin-top: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    background-image:url("./images/ad_background.png");
+}
+#main #left-side #learnMore p{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+#main #left-side #learnMore button {
+    background-image: linear-gradient(#89e4f0,#00c3de, turquoise);
+    width: 120px;
+    font-size: 12px;
+    font-weight: lighter;
+    box-shadow: 1px 1px black;
+}
+#main #left-side #learnMore button span:nth-of-type(1) {
+    color: #89e4f0;
+    font-size: 8px;
+}
+#main #left-side #learnMore button span:nth-of-type(2) {
+    color: #bddee2;
+    font-size: 10px;
+}
+#main #left-side #learnMore button span:nth-of-type(3) {
+    color: #d8f4f7;
+    font-size: 10px;
+}
+#main #right-side {
+    width: 780px;
+    box-sizing: border-box;
+    /* margin-top: 5px; */
+}
+#main #right-side #subHeader {
+    display: flex;
+}
+#main #right-side #subHeader img {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 4px;
+}
+#main #right-side #subHeader span {
+    color: #22649e;
+    font-size: 14px; 
+}
+#main #right-side #subHeader #contact img {
+    width: 25px;
+    height: 25px;
+    margin-left: 590px;
+}
+#main #right-side #subHeader #contact #info {
+    font-size: 8px;
+    display: inline-block;
+    justify-content: center;
+}
+#main #right-side #subHeader #contact span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #04c7f8;
+    letter-spacing: 1px;
+}
+#mainContent {
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    padding-top: 5px;
+    font-size: 12px;
+}
+#mainContent h3 {
+    color: #0975d4;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* #mainContent p {
+    font-size: 12px;
+} */
+#mainContent span {
+    color: #04c7f8;
+}
+#mainContent p .black{
+    color: black;
+    font-weight: bold;
+}
+#mainContent ul li{
+    margin-left: 30px;
+    padding: 3px;
+}
+#mainContent img {
+    width: 200px;
+    margin: 10px 270px;
+    padding: 10px;
+}
+#mainContent ol li{
+    margin-left: 30px;
+    padding: 3px;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px ;
+    border-top: 3px solid #0975d4;
+    border-left: 3px solid #0975d4;
+    border-right: 3px solid #0975d4;
+}
+#footer img {
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    text-align: left;
+}
+#footer #texts {
+    padding: 10px;
+}
+#footer a {
+    text-decoration: none;
+    color: #3fa0ee;
+}
+
+
+
+
+
+
