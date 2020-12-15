@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    /* border: 1px solid rgb(41, 107, 100); */
+    border-bottom: 2px solid gray;
+}
+header {
+    /* width: 950px; */
+    padding: 10px;
+}
+header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid silver;
+    padding: 5px;
+}
+
+#header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-block img {
+    width: 160px;
+    height: 35px;
+    margin-left: 40px;
+}
+
+#header-middle {
+    margin-left: -240px;
+    justify-content: center;
+}
+
+#header-middle img {
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    transform: translateY(3px)
+}
+
+#header-block #header-middle button {
+    background-color: white;
+    font-size: 12px;
+    font-weight: 800;
+    border: none;
+    padding:2px;
+}
+
+#header-block #header-middle button:nth-of-type(1) {
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding-left: 3px;
+}
+
+#header-block #header-middle button:nth-of-type(2) {
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding-left: 3px;
+}
+
+#header-block #header-middle button:nth-of-type(3) {
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#header-block #header-middle #header-middle-bottom img {
+    width: 20px;
+    margin: 0px;
+}
+
+#header-block #header-middle-bottom p {
+    margin-top: 15px;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+#header-block #header-middle-bottom a {
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    font-weight: 800;
+}
+
+#header-block #header-right {
+    text-align: end;
+    margin-right: 40px;
+}
+#header-block #header-right img {
+    width: 18px;
+    height: 18px;
+    transform: translateY(5px);
+}
+
+#header-block #header-right p {
+    font-size: 10px;
+}
+
+#header-block #header-right a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    align-items: center;
+}
+
+#header-block #header-right input {
+    padding-right: 55px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #e4161f;
+    padding: 0px 140px 0px 170px;
+    font-size: 14px;
+    font-weight: 600;
+    /* justify-content: center; */
+}
+
+nav ul li {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 5px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+nav ul li:nth-of-type(2n) {
+    border-right: none;
+}
+
+nav ul li:nth-of-type(1n) {
+    border-right: none;
+}
+
+nav ul li:nth-of-type(5) {
+    border-right: 1px solid white;
+}
+
+/* Main content section */
+section h2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 860px;
+    margin: 0 auto;
+}
+
+#main .content {
+    width: 280px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    padding: 20px 15px;
+    margin: 15px;
+}
+#main .content img {
+    width: 50px;
+    height: 41.66px;
+    /* height: 30px; */
+}
+
+#main .content:nth-of-type(4) img{
+    width: 80px;
+    height: 41.66px;
+}
+
+#main .content h3 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#main .content p {
+    font-size: 10px;
+    text-align: left;
+}
+
+#main .content span {
+    font-weight: 800;
+}
+
+#main .content:last-child p:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+
+#main .content .red {
+    color: red;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+#main .content .save {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.content a {
+    font-size: 10px;
+    text-align: left;
+    color: black;
+}
+
+/* Bottom of the page */
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 840px;
+    margin: 0 auto;
+}
+
+footer img {
+    width: 630px;
+    height: 240px;
+}
+
+footer #bottom-right img {
+    width: 180px;
+    height: 85px;
+    margin: 0px;
+    padding: 5px 5px 0 5px;
+
+}
+
+footer #bottom-right {
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 3px;
+}
+
+footer #bottom-right p {
+    font-size: 20px;
+    padding: 10px ;
+    font-weight: 600;
+}
+
+footer #bottom-right button {
+    background-color: #e4161f;
+    color: white;
+    font-size: 14px;
+    padding: 2px 12px;
+    border: 1px solid white;
+    border-radius: 3px;
+    transform: translateY(-3px)
+
+}
+
+
+
+
